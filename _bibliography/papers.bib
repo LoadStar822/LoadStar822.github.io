@@ -3,112 +3,47 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
+@article{tian_application_2024,
+  abbr={GBE},
+	title = {Application and Comparison of Machine Learning and Database-Based Methods in Taxonomic Classification of High-Throughput Sequencing Data},
+	volume = {16},
+	url = {https://doi.org/10.1093/gbe/evae102},
+	doi = {10.1093/gbe/evae102},
+	abstract = {The advent of high-throughput sequencing technologies has not only revolutionized the field of bioinformatics but has also heightened the demand for efficient taxonomic classification. Despite technological advancements, efficiently processing and analyzing the deluge of sequencing data for precise taxonomic classification remains a formidable challenge. Existing classification approaches primarily fall into two categories, database-based methods and machine learning methods, each presenting its own set of challenges and advantages. On this basis, the aim of our study was to conduct a comparative analysis between these two methods while also investigating the merits of integrating multiple database-based methods. Through an in-depth comparative study, we evaluated the performance of both methodological categories in taxonomic classification by utilizing simulated data sets. Our analysis revealed that database-based methods excel in classification accuracy when backed by a rich and comprehensive reference database. Conversely, while machine learning methods show superior performance in scenarios where reference sequences are sparse or lacking, they generally show inferior performance compared with database methods under most conditions. Moreover, our study confirms that integrating multiple database-based methods does, in fact, enhance classification accuracy. These findings shed new light on the taxonomic classification of high-throughput sequencing data and bear substantial implications for the future development of computational biology. For those interested in further exploring our methods, the source code of this study is publicly available on https://github.com/{LoadStar}822/Genome-Classifier-Performance-Evaluator. Additionally, a dedicated webpage showcasing our collected database, data sets, and various classification software can be found at http://lab.malab.cn/{\textasciitilde}tqz/project/taxonomic/.},
+	pages = {evae102},
+	numpages = {18},
+  year={2024},
   month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
+	journal = {Genome Biology and Evolution},
+	author = {Tian, Qinzhong and Zhang, Pinglu and Zhai, Yixiao and Wang, Yansu and Zou, Quan},
+  pdf = {evae102.pdf},
+  code = {https://github.com/LoadStar822/Genome-Classifier-Performance-Evaluator},
+  google_scholar_id={u-x6o8ySG0sC},
+  selected={true},
   dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true}
+  altmetric={164512092},
+  html={http://lab.malab.cn/~tqz/project/taxonomic/}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{zhang_fmalign2_2024,
+  abbr={Bioinformatics},
+  title = {{FMAlign2}: a novel fast multiple nucleotide sequence alignment method for ultralong datasets},
+	volume = {40},
+	url = {https://doi.org/10.1093/bioinformatics/btae014},
+	doi = {10.1093/bioinformatics/btae014},
+	abstract = {In bioinformatics, multiple sequence alignment (MSA) is a crucial task. However, conventional methods often struggle with aligning ultralong sequences. To address this issue, researchers have designed MSA methods rooted in a vertical division strategy, which segments sequence data for parallel alignment. A prime example of this approach is FMAlign, which utilizes the FM-index to extract common seeds and segment the sequences accordingly.FMAlign2 leverages the suffix array to identify maximal exact matches, redefining the approach of FMAlign from searching for global chains to partial chains. By using a vertical division strategy, large-scale problem is deconstructed into manageable tasks, enabling parallel execution of subMSA. Furthermore, sequence-profile alignment and refinement are incorporated to concatenate subsets, yielding the final result seamlessly. Compared to FMAlign, FMAlign2 markedly augments the segmentation of sequences and significantly reduces the time while maintaining accuracy, especially on ultralong datasets. Importantly, FMAlign2 enhances existing MSA methods by conferring the capability to handle sequences reaching billions in length within an acceptable time frame.Source code and datasets are available at https://github.com/malabz/FMAlign2 and https://zenodo.org/records/10435770.},
+  pages = {btae014},
+	numpages = {1},
+  year={2024},
+  month={jan},
+	journal = {Bioinformatics},
+	author = {Zhang, Pinglu and Liu, Huan and Wei, Yanming and Zhai, Yixiao and Tian, Qinzhong and Zou, Quan},
+  code={https://github.com/malabz/FMAlign2},
+  google_scholar_id={u5HHmVD_uO8C},
+  dimensions={true},
+  altmetric={158278067}
+
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
